@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.app {
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.component {
+  transition: width 2s, height 4s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.visible {
+  transform: translateY(0);
+  opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hidden {
+  height: 10px;
+}
+
+.content {
+  background-color: rgb(21, 24, 27);
+}
+
+.toggle-btn {
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+  /* Optional: Highlight on hover */
+  opacity: 0.8;
+}
+
+.toggle-btn.active {
+  /* Styles when button is active */
+  background-color: #4caf50;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.slider-container {
+  width: 100%;
+  height: 750px; /* Updated height */
+  overflow: hidden;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slides-div {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.img {
+  width: 400px;
+  height: 570px;
+  margin: 0 10px;
+}
+
+.button {
+  position: absolute;
+  width: 240px;
+  height: 370px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #4caf50;
+}
+
+.org {
+  transition: width 1s; /* Apply transition to the width property over 1 second */
+  width: 300px; /* Initial width */
+  height: 61px;
+}
+
+/* Different widths for different images */
+.move-right {
+  width: 350px;
+}
+
+.two {
+  width: 500px;
+}
+
+.three {
+  width: 200px;
+}
+
+.four {
+  width: 200px;
+}
+
+.five {
+  width: 100px;
 }

@@ -39,32 +39,34 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Title of the project
+WASSERSTOFF-TASK
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technology stack/libraries used
+### `npm install tailwindcss@latest postcss@latest autoprefixer@latest`
+<b>Teck Stacks</b>
+1. React JS
+2. JSX
+3. Tailwind
+4. Node JS
+5. npm
+6. Babel
+7. Webpack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Steps to run/build the project
+1. Clone the Git Repository in vs code using terminal:(use this command) `git clone https://github.com/sryuvaraj/wasserstoff.git`
+2. Navigate to the Project Directory:(use this command) `cd WASSERSTOFF-TASK`
+3. Install Dependencies:(use this command) `npm install`
+4. Start the Development Server:(use this command) `npm start`
 
-### Code Splitting
+## Video Demo
+[Download Video](E:/Wasserstoff)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## A vercel or any other public hosted link
+`https://wasserstoff-technical-task.netlify.app/`
 
-### Analyzing the Bundle Size
+## How I approached the task
+ I approached the task by first understanding the requirements thoroughly. This involved carefully reading the task prompt to identify key points such as the desired outcome, specific functionalities required, and any constraints or guidelines provided. Next, I broke down the task into smaller steps to make it more manageable. This allowed me to create a clear plan of action, outlining the main components needed for the solution. Afterwards, I started by addressing the main functionality required, such as creating React components, handling state with useState, implementing image sliders, and toggling between event and collectible views. I paid attention to the design aspects, ensuring that the components were visually appealing and responsive. This involved using Tailwind CSS for styling to make the layout more dynamic and adjusting the CSS properties to achieve the desired look and feel.For the image slider functionality, I implemented logic using useState and useEffect hooks to manage the slide index and transition between slides. This allowed for smooth and automatic sliding of images, creating a carousel-like effect.Throughout the process, I continuously tested the code to ensure each feature was working as expected and made adjustments where necessary. Once everything was working as intended, I documented the steps taken to provide a clear explanation of the approach for the interview task.Overall, my approach focused on understanding the requirements, breaking down the task into manageable steps, implementing the necessary functionality with React and Tailwind CSS, and testing rigorously to ensure a polished and functional solution.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## GitHub project repository link
+### `git clone https://github.com/sryuvaraj/wasserstoff.git`
